@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Stitch's Great Escape</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src = "script.js"></script>
+
+</head>
+<body onload = "initialize()">
+<canvas id="canvas" width="1000" height="600">
+</canvas>
+
+<p id="score">Score: 0</p>
+
+<p id="lives">Lives: 3</p>
+
+<input type="button" onclick="reset()" value="Reset"><br>
+<p>Developer Options:</p>
+<input type="button" onclick="devheart()" value="Activate Heart Powerup">
+<input type="button" onclick="devrocket()" value="Activate Rocket Powerup">
+<input type="button" onclick="devstitch()" value="Activate Backwards Powerup">
+<input type="button" onclick="devorange()" value="Activate Orange Laser Powerup">
+<p id="test"></p>
+
+</body>
+</html>
